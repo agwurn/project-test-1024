@@ -18,4 +18,4 @@ pnpm run dev
 ```
 
 # Dev Logs
-- crafted the main logo | 20231025 16:55
+- v0.0.1 crafted the main logo | 20231025 16:55

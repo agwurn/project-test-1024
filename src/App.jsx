@@ -1,15 +1,12 @@
-import './App.css'
-import MainLogo from './components/Logo'
+import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
-
   return (
     <div className="">
-      <div className='w-48'>
-        <MainLogo/>
-      </div>
+      <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

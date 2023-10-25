@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-banner{
+  background-image: url('./public//images/banner.png');
+}
+
+.text-vertical {
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+}
+
+.bg-custom-white {
+  background-color: #FFFFFF;
+}
+
+.bg-custom-brown {
+  background-color: #AA6666;
+}
+.bg-custom-khaki {
+  background: #DCCCBC;
+}
+
+.text-custom-black {
+  color: #000000;
+}
+.text-custom-brown {
+  color: #AA6666;
+}
+
+
