@@ -16,13 +16,16 @@
 .bg-custom-white {
   background-color: #FFFFFF;
 }
-
+.bg-custom-black {
+  background-color: #000000;
+}
 .bg-custom-brown {
   background-color: #AA6666;
 }
 .bg-custom-khaki {
   background: #DCCCBC;
 }
+
 
 .text-custom-black {
   color: #000000;
