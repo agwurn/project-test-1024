@@ -8,6 +8,17 @@
   background-position: 56% 55%;
 }
 
+.nav-selected::after {
+  position: absolute;
+  content: "";
+  background: #AA6666;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -1px;
+
+}
+
 .text-vertical {
   -webkit-writing-mode: vertical-lr;
   writing-mode: vertical-lr;
@@ -37,3 +48,6 @@
   color: #ffffff;
 }
 
+.border-custom-brown {
+  border-color: #AA6666;;
+}

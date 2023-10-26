@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function HamburgerBtn({isOpen, handleToggleMenu}) {
   return (
     <div className="flex w-full aspect-square">
-      <div 
+      <button 
         className="m-auto text-center w-6 aspect-square relative" 
         onClick={handleToggleMenu}
       >
@@ -30,7 +30,7 @@ export default function HamburgerBtn({isOpen, handleToggleMenu}) {
             width: isOpen ? "120%" : "100%"
           }}
         ></motion.div>
-      </div>
+      </button>
     </div>
   );
 }
