@@ -4,6 +4,8 @@
 
 .bg-banner{
   background-image: url('./public//images/banner.png');
+  background-size: 265%;
+  background-position: 56% 55%;
 }
 
 .text-vertical {
@@ -28,5 +30,7 @@
 .text-custom-brown {
   color: #AA6666;
 }
-
+.text-custom-white {
+  color: #ffffff;
+}
 
