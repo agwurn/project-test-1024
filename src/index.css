@@ -2,21 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-banner{
-  background-image: url('./public//images/banner.png');
+.bg-banner {
+  background-image: url("/images/banner.png");
   background-size: 265%;
   background-position: 56% 55%;
+}
+
+.nav-selected {
+  @apply text-custom-brown py-1 w-fit;
 }
 
 .nav-selected::after {
   position: absolute;
   content: "";
-  background: #AA6666;
+  background: #aa6666;
   width: 100%;
   height: 2px;
   left: 0;
   bottom: -1px;
-
 }
 
 .text-vertical {
@@ -24,30 +27,31 @@
   writing-mode: vertical-lr;
 }
 
-.bg-custom-white {
-  background-color: #FFFFFF;
-}
-.bg-custom-black {
-  background-color: #000000;
-}
-.bg-custom-brown {
-  background-color: #AA6666;
-}
-.bg-custom-khaki {
-  background: #DCCCBC;
-}
+@layer utilities {
+  .bg-custom-white {
+    background-color: #ffffff;
+  }
+  .bg-custom-black {
+    background-color: #000000;
+  }
+  .bg-custom-brown {
+    background-color: #aa6666;
+  }
+  .bg-custom-khaki {
+    background: #dcccbc;
+  }
 
+  .text-custom-black {
+    color: #000000;
+  }
+  .text-custom-brown {
+    color: #aa6666;
+  }
+  .text-custom-white {
+    color: #ffffff;
+  }
 
-.text-custom-black {
-  color: #000000;
-}
-.text-custom-brown {
-  color: #AA6666;
-}
-.text-custom-white {
-  color: #ffffff;
-}
-
-.border-custom-brown {
-  border-color: #AA6666;;
+  .border-custom-brown {
+    border-color: #aa6666;
+  }
 }
